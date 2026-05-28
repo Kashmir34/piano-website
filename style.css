@@ -39,11 +39,6 @@ section {
     margin: auto;
 }
 
-#teacher-photo {
-    text-align: center;
-    margin-top: 20px;
-}
-
 .teacher-img {
     width: 50%;
     max-width: 600px;
