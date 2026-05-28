@@ -1,0 +1,86 @@
+﻿body {
+    font-family: "Hiragino Sans", sans-serif;
+    margin: 0;
+    background: #fafafa;
+    color: #333;
+}
+
+header {
+    background-image: url("images/piano-header-back-image.png");
+    background-size: cover;        /* 画像をヘッダーいっぱいに広げる */
+    background-position: center;   /* 中央に配置 */
+    padding: 60px 20px;            /* タイトルの上下スペース */
+    text-align: center;
+    color: white;                  /* 文字を白にして見やすく */
+    text-shadow: 0 2px 6px rgba(0,0,0,0.5); /* 文字を読みやすく */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#teacher-photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.teacher-img {
+    width: 70%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.photo {
+    width: 30%;
+    margin: 1%;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
