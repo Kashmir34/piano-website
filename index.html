@@ -17,7 +17,6 @@
     </head>
 
     <body>
-
         <header>
             <h1>谷中ピアノ教室</h1>
             <p>徳島市の個人レッスン・子どもから大人まで</p>
@@ -98,7 +97,6 @@
         </footer>
 
         <div>アクセス数：<span id="count"></span></div>
-
         <script>
             fetch("https://api.counterapi.dev/v1/piano-website/visits")
             .then(res => res.json())
@@ -106,6 +104,5 @@
                 document.getElementById("count").innerText = data.count;
             });
         </script>
-
     </body>
 </html>
