@@ -35,14 +35,13 @@
 
         <section id="about">
             <h2>教室について</h2>
-            <p>谷中ピアノ音楽教室は、基礎から楽しく学べる個人レッスンの教室です。</p>
+            <p>谷中ピアノ音楽教室は、ひとりひとりの個性を大切にし、基礎から楽しく学べる個人レッスンの教室です。</p>
         </section>
 
         <section id="teacher">
             <h2>講師紹介</h2>
             <p>谷中亨子</p>
             <ul>
-                <li>神奈川県立多摩高校卒業</li>
                 <li>武蔵野音楽大学声楽科卒業</li>
                 <li>鳴門教育大学大学院修了</li>
             </ul>
@@ -93,14 +92,5 @@
         <footer>
             <p>&copy; 2026 谷中ピアノ音楽教室</p>
         </footer>
-
-        <div>アクセス数：<span id="count"></span></div>
-        <script>
-            fetch("https://api.counterapi.dev/v1/piano-website/visits")
-            .then(res => res.json())
-            .then(data => {
-                document.getElementById("count").innerText = data.count;
-            });
-        </script>
     </body>
 </html>
