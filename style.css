@@ -99,7 +99,7 @@ footer {
 
     /* ② header の高さと文字サイズを調整 */
     header {
-        padding: 120px 20px; /* スマホで高さを確保 */
+        padding: 120px 18px; /* スマホで高さを確保 */
     }
     header h1 {
         font-size: 1.8em;
