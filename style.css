@@ -43,7 +43,7 @@ section {
     width: 30%;
     margin: 1%;
     border-radius: 8px;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 3 / 4;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
