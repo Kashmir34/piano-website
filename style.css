@@ -89,11 +89,11 @@ footer {
 }
 
 /* スマホのときに最適化 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 
     /* ① 全体の文字を少し大きく */
     body {
-        font-size: 1.15em;
+        font-size: 1.0em;
         line-height: 1.7;
     }
 
