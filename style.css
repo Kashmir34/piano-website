@@ -93,8 +93,8 @@ footer {
 
     /* ① 全体の文字を少し大きく */
     body {
-        font-size: 1.15em;
-        line-height: 1.7;
+        font-size: 1.0em;
+        line-height: 1.5;
     }
 
     /* ② header の高さと文字サイズを調整 */
