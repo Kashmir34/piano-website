@@ -100,7 +100,7 @@ footer {
     /* ② header の高さと文字サイズを調整 */
     header {
         background-size: contain;
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
         padding: 80px 20px;
         text-shadow: 3px 3px 3px black;
