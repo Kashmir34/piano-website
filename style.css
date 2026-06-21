@@ -102,7 +102,8 @@ footer {
         background-size: contain;   /* ← 画像全体を表示しやすくする */
         background-repeat: no-repeat;
         background-position: top center; /* ← 上を基準に表示 */
-        padding: 80px 20px; /* スマホで高さを確保
+        padding: 60px 20px; /* スマホで高さを確保
+        vertical-align: bottom;
         text-shadow: 1px 2px 6px black; /* 文字を読みやすく */
     }
     header h1 {
