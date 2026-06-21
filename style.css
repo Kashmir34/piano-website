@@ -93,7 +93,7 @@ footer {
 
     /* ① 全体の文字を少し大きく */
     body {
-        font-size: 1.25em;
+        font-size: 1.15em;
         line-height: 1.7;
     }
 
@@ -102,7 +102,7 @@ footer {
         padding: 120px 20px; /* スマホで高さを確保 */
     }
     header h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     header p {
         font-size: 1.2em;
