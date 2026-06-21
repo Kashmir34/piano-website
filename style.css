@@ -99,12 +99,10 @@ footer {
 
     /* ② header の高さと文字サイズを調整 */
     header {
-        background-size: contain;   /* ← 画像全体を表示しやすくする */
-        background-repeat: no-repeat;
-        background-position: top center; /* ← 上を基準に表示 */
-        padding: 60px 20px; /* スマホで高さを確保 */
-        vertical-align: bottom;
-        text-shadow: 2px 2px 3px black; /* 文字を読みやすく */
+        background-size: cover;
+        background-position: top center;
+        padding: 60px 20px;
+        text-shadow: 2px 2px 3px black;
     }
     header h1 {
         font-size: 1.8em;
