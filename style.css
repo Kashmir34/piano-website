@@ -12,7 +12,7 @@ header {
     padding: 80px 20px;            /* タイトルの上下スペース */
     text-align: center;
     color: white;                  /* 文字を白にして見やすく */
-    text-shadow: 0 2px 6px rgba(0,0,0,0.5); /* 文字を読みやすく */
+    text-shadow: 2px 2px 4px black; /* 文字を読みやすく */
 }
 
 nav ul {
