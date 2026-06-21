@@ -9,7 +9,7 @@ header {
     background-image: url("images/front_plate.jpg");
     background-size: cover;        /* 画像をヘッダーいっぱいに広げる */
     background-position: center;   /* 中央に配置 */
-    padding: 60px 20px;            /* タイトルの上下スペース */
+    padding: 80px 20px;            /* タイトルの上下スペース */
     text-align: center;
     color: white;                  /* 文字を白にして見やすく */
     text-shadow: 0 2px 6px rgba(0,0,0,0.5); /* 文字を読みやすく */
